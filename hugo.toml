@@ -50,7 +50,7 @@ publishDir = 'docs'
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "yvazirabad.github.io"
+        text = "https://scholar.google.com/citations?user=FfjZqc4AAAAJ&hl=en"
 
 
 
@@ -92,11 +92,11 @@ publishDir = 'docs'
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Bioinformatics"
+        degree = "MS in Bioinformatics"
         university = "Marquette University"
         dates = "2014 - 2018"
         [[params.education.list]]
-        degree = "BSc BioMolecular Engineering"
+        degree = "BS BioMolecular Engineering"
         university = "Milwaukee School of Engineering"
         dates = "2009 - 2013"
 
@@ -291,7 +291,7 @@ publishDir = 'docs'
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/ivazirabad/"
-        title = "ivazirabad/"
+        title = "ivazirabad"
 		
 
 
