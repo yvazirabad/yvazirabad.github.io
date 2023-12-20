@@ -1,0 +1,300 @@
+# Page settings
+
+baseURL = "https://yvazirabad.github.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = 'docs'
+
+
+
+
+
+
+[params]
+    author = "IVazirabad"
+    description = "DevResume"
+
+
+    primaryColor = "#39BCC9"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Ibrahim Vazirabad"
+        tagline = "Bioinformatics Analyst"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Wauwatosa, WI"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "14149554070"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "ivazirabad@mcw.edu"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "yvazirabad.github.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python/R"
+	    [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = "DNA/RNA/Protein Assay Analysis"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Bioinformatics"
+        university = "Marquette University"
+        dates = "2014 - 2018"
+        [[params.education.list]]
+        degree = "BSc BioMolecular Engineering"
+        university = "Milwaukee School of Engineering"
+        dates = "2009 - 2013"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Moderate"
+	    [[params.languages.list]]
+        name = "فارسی"
+        level = "مبتدی"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Languages"
+        [[params.interests.list]]
+        name = "Single-cell methods"
+        [[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "Finances"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Bioinformatician with ten years of experience in the field. I have worked on a range of projects in both the clinical and basic research sphere."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Bioinformatics Analyst III"
+        dates = "2022 - Present"
+        company = "Medical College of Wisconsin"
+        details = "Support the Physiology Department with their NGS assay analysis."
+        [[params.experience.list.items]]
+        details = "Experience includes bulk and single-cell RNA-Seq analysis, CLIP-Seq, ATAC-Seq, etc."
+
+        [[params.experience.list]]
+        title = "Bioinformatics Support Analyst"
+        dates = "2015 - 2022"
+        company = "Versiti Wisconsin"
+        details = "Support the development of NGS pipelines to report actionable genomic variants discovered by the suite of diagnostic NGS assays."
+        [[params.experience.list.items]]
+        details = "Responsible for upkeep of clinical bioinformatics pipeline."
+        [[params.experience.list.items]]
+        details = "Published a peer-reviewed article in BBMT."
+
+        [[params.experience.list]]
+        title = "Bioinformatics Research Assistant"
+        dates = "2014 - 2015"
+        company = "University of Wisconsin - Milwaukee"
+        details = "I developed NGS analysis pipelines for both RNA-Seq and WES data. Wrote scripts to identify de novo germline and somatic homozygous variants to aid in clinical diagnosis of rare Mendelian diseases."
+
+        [[params.experience.list]]
+        title = "Data Analyst"
+        dates = "2013 - 2014"
+        company = "Microbe Detectives"
+        details = "Identified causes and proposed solutions to issues in wastewater treatment via analysis of bacterial 16S rRNA sequencing results, water chemistry data, and process information. Prepared client reports based on this data."
+
+        [[params.experience.list]]
+        title = "Software Development Intern"
+        dates = "Summer 2014"
+        company = "Google Summer of Code - Open Bioinformatics Foundation"
+        details = "Improved a compatibility module between JSBML and CellDesigner, tools used in biochemical network modeling."
+
+        [[params.experience.list]]
+        title = "Bioinformatics Data Intern"
+        dates = "2012 - 2013"
+        company = "Medical College of Wisconsin"
+        details = "Algorithm development and data curation for utilization in the clinical variant analysis software package Carpe Novo."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = ""
+		[[params.information.list.items]]
+        details = "2023 · [Structure and Function of RhoBTB1 Required for Substrate Specificity and Cullin-3 Ubiquitination](https://academic.oup.com/function/article/4/5/zqad034/7218555) ***Function***"
+		[[params.information.list.items]]
+        details = "2020 · [SBML Level 3: an extensible format for the exchange and reuse of biological models](https://www.embopress.org/doi/full/10.15252/msb.20199110) ***Molecular Systems Biology**"
+		[[params.information.list.items]]
+        details = "2018 · [Direct HLA Genetic Comparisons Identify Highly Matched Unrelated Donor-Recipient Pairs with Improved Transplantation Outcome](https://pubmed.ncbi.nlm.nih.gov/30537549/) ***Biology of Blood and Marrow Transplantation***"
+		[[params.information.list.items]]
+        details = "2015 · [JSBML 1.0: providing a smorgasbord of options to encode systems biology models](https://academic.oup.com/bioinformatics/article/31/20/3383/195580) ***Bioinformatics***"
+		
+
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/yvazirabad"
+        title = "ivazirabad"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/ivazirabad/"
+        title = "ivazirabad/"
+		
+
+
+
+
+
